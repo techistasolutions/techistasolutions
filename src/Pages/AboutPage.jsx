@@ -456,7 +456,7 @@ export const AboutPage = () => {
                   {/* Background Decorations */}
                   <div className="absolute -inset-8 bg-gradient-to-tr from-emerald-400/20 via-blue-400/15 to-purple-400/20 rounded-3xl blur-2xl"></div>
                   <div className="absolute -inset-4 bg-gradient-to-br from-white/60 to-gray-100/60 rounded-3xl shadow-2xl transform rotate-1"></div>
-                  
+
                   <motion.div
                     className="relative rounded-3xl overflow-hidden shadow-2xl"
                     whileHover={{ scale: 1.02, rotateY: 3 }}
@@ -508,7 +508,7 @@ export const AboutPage = () => {
                   {/* Background Decorations */}
                   <div className="absolute -inset-8 bg-gradient-to-bl from-blue-400/20 via-emerald-400/15 to-purple-400/20 rounded-3xl blur-2xl"></div>
                   <div className="absolute -inset-4 bg-gradient-to-tl from-white/60 to-gray-100/60 rounded-3xl shadow-2xl transform -rotate-1"></div>
-                  
+
                   <motion.div
                     className="relative rounded-3xl overflow-hidden shadow-2xl"
                     whileHover={{ scale: 1.02, rotateY: -3 }}
@@ -718,17 +718,18 @@ export const AboutPage = () => {
                   {/* Background Decorations */}
                   <div className="absolute -inset-8 bg-gradient-to-tr from-red-400/20 via-orange-400/15 to-yellow-400/20 rounded-3xl blur-2xl"></div>
                   <div className="absolute -inset-4 bg-gradient-to-br from-white/60 to-gray-100/60 rounded-3xl shadow-2xl transform rotate-1"></div>
-                  
+
                   <motion.div
                     className="relative rounded-3xl overflow-hidden shadow-2xl"
                     whileHover={{ scale: 1.02, rotateY: 3 }}
                     transition={{ duration: 0.5 }}
                   >
                     <img
-                      src="https://www.securitymagazine.com/ext/resources/Issues/2024/03-March/SEC-0324-Cyber-Feat-Slide1-1170x658.jpg?1711833837"
+                      src="https://images.unsplash.com/photo-1556742044-3c52d6e88c62?auto=format&fit=crop&w=1170&q=80"
                       alt="Security & Reliability Focus"
-                      className="w-full h-auto object-cover"
+                      className="w-full h-auto object-cover rounded-2xl shadow-md"
                     />
+
                     <div className="absolute inset-0 bg-gradient-to-t from-red-900/60 via-transparent to-transparent"></div>
                   </motion.div>
 

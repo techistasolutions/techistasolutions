@@ -442,10 +442,11 @@ const WebDevelopmentService = () => {
                 >
                   <div className="absolute inset-0 bg-gradient-to-br from-gray-500/20 to-emerald-500/20 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <img
-                    src="https://admin.12grids.com/uploads/blogs/original_cover_images/future-of-responsive-web-design-12grids.jpg"
+                    src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&w=1170&q=80"
                     alt="Responsive Web Design"
-                    className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500 rounded-2xl shadow-md"
                   />
+
                   <div className="absolute bottom-4 left-4 z-20">
                     <div className="bg-white/90 backdrop-blur-sm rounded-xl px-4 py-2">
                       <p className="text-sm font-semibold text-gray-800">Responsive Design</p>
@@ -454,22 +455,8 @@ const WebDevelopmentService = () => {
                 </motion.div>
 
                 {/* Top right image */}
-                <motion.div
-                  variants={imageVariants}
-                  className="col-span-5 row-span-4 relative group overflow-hidden rounded-2xl shadow-lg ml-2"
-                >
-                  <div className="absolute inset-0 bg-gradient-to-br from-gray-500/20 to-emerald-500/20 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  <img
-                    src="https://blog.powr.io/hs-fs/hubfs/ecommerce-website-example-github.webp?width=801&height=450&name=ecommerce-website-example-github.webp"
-                    alt="E-commerce Development"
-                    className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute top-3 right-3 z-20">
-                    <div className="bg-emerald-500 text-white rounded-full px-3 py-1 text-xs font-semibold">
-                      E-commerce
-                    </div>
-                  </div>
-                </motion.div>
+                
+
 
                 {/* Bottom left image */}
                 <motion.div
