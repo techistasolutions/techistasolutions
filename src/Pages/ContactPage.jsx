@@ -238,7 +238,6 @@ console.log("data",data);
                   <div className="space-y-3">
                     <p className="text-gray-700 text-lg leading-relaxed flex items-start">
                       <span className="mr-2 text-emerald-600 mt-1">📍</span>
-                      Swaschi Cross Road,<br/>
                       Shantinagar, Bangalore - 560027
                     </p>
                     
