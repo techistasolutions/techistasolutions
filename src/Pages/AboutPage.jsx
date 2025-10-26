@@ -36,7 +36,7 @@ export const AboutPage = () => {
       image: megha,
       socialLinks: {
         instagram: "https://www.instagram.com/_megh4?igsh=ZXh2NW5qa2cxYzM1",
-        linkedin: "https://www.linkedin.com/in/megha-abhin-73b25132b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        linkedin: "www.linkedin.com/in/meghasajup94",
         github: "https://github.com/meghasajup"
       }
     },
