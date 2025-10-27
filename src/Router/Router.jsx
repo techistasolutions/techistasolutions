@@ -15,9 +15,10 @@ import WebDevelopmentService from '../Pages/webisteDevelopment'
 import { HomePageLayout } from '../Layout/HomepageLayout'
 import Service from '../Pages/Service'
 import SEOServices from '../Pages/SEO_Optimization'
+// import WorksPage from '../Pages/WorksPage'
 
 export const router = createBrowserRouter([
-     {
+    {
         path: "/",
         element: <HomePageLayout />,
         children: [
@@ -26,21 +27,25 @@ export const router = createBrowserRouter([
                 element: <HomePage />
             },
 
- {
+            {
                 path: "About",
                 element: <AboutPage />
             },
-             {
+            // {
+            //     path: "works",
+            //     element: <WorksPage />
+            // },
+            {
                 path: "service",
                 element: <Service />
             },
 
-             {
+            {
                 path: "Technologies",
                 element: <Technologies />
             },
 
-//jeswin
+            //jeswin
 
             {
                 path: "CMSDevelopment",
